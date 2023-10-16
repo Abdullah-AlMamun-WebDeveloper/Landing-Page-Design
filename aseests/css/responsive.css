@@ -1,0 +1,587 @@
+
+/* 11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111 */
+
+@media screen and (max-width: 1255px) {
+
+    .down-header h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .down-header p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .down-header nav ul {
+        width: 60%;
+    }
+    .featrue-col p {
+        font-size: 14.4px;
+        line-height: 26px;
+    }
+    .smart-col-2 h2 {
+        font-size: 41.7px;
+        line-height: 45px;
+    }
+
+    .meeting-6 div p {
+        font-size: 11.3px;
+        line-height: 22px;
+    }
+    .meeting-6 .img6 {
+        width: 27%;
+    }
+
+    .smart-jacpots2 h2 {
+        font-size: 41.7px;
+        line-height: 50px;
+    }
+    .smart-jacpots2 p {
+        font-size: 17px;
+        line-height: 32px;
+    }
+
+    .lets-see .lets-col-4 h3 {
+        font-size: 17.5px;
+    }
+    .lets-see .lets-col-4 p {
+        font-size: 13.7px;
+    }
+
+    .testimomial p {
+        font-size: 13.4px;
+        line-height: 28px;
+    }
+}
+
+/* 2222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222 */
+
+
+@media screen and (max-width: 984px) {
+
+    .featrue-col p {
+        font-size: 10.9px;
+        line-height: 20px;
+    }
+    .featrue-col h3 {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .smart-col-2 h2 {
+        font-size: 33.3px;
+        line-height: 40px;
+        margin-bottom: 40px;
+    }
+    .smart-col-2 div p {
+        font-size: 10.7px;
+        line-height: 20px;
+    }
+    .smart-col-2 div {
+        margin-bottom: 30px;
+    }
+    .easy-margin {
+        margin-top: 35px;
+    }
+    .smart-col-2 .platforms-img {
+        width: 95%;
+        margin-left: 0%;
+    }
+
+    .meeting-6 div h3 {
+        font-size: 13.1px;
+        margin-bottom: 15px;
+    }
+    .meeting-6 div p {
+        font-size: 8.6px;
+        line-height: 17px;
+    }
+
+    .smart-jacpots2 h2 {
+        font-size: 33.3px;
+        line-height: 45px;
+    }
+    .smart-jacpots2 p {
+        font-size: 13.6px;
+        line-height: 28px;
+    }
+
+    .lets-see .lets-col-4 h3 {
+        font-size: 13.5px;
+    }
+    .lets-see .lets-col-4 p {
+        font-size: 10.6px;
+        line-height: 22px;
+    }
+    .lets-see .lets-col-4 div {
+        gap: 15px;
+    }
+    .lets-see .lets-col-4 .fst {
+        margin-top: -20px;
+    }
+
+    .testimomial h4 {
+        font-size: 13.8px;
+    }
+    .testimomial p {
+        font-size: 10.4px;
+        line-height: 22px;
+    }
+    .testimomial .testimonial-col-3 div span h5 {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .testimomial .testimonial-col-3 div span p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .payment p {
+        font-size: 13.3px;
+        line-height: 27px;
+    }
+    .payment h2 {
+        margin-bottom: 30px;
+    }
+    .payment .payment-img {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .premiume .free-plan p {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .premi-head .staring h4 {
+        font-size: 23px;
+    }
+    .premi-head .staring p {
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .premiume .premiume-col span p {
+        font-size: 12.9px;
+    }
+
+    .footer-area .row {
+        padding-left: 100px;
+    }
+    .footer-area .footer-links {
+        flex-basis: 44%;
+        padding: 10px 0px 20px 15px;
+        margin-bottom: 20px;
+    }
+    .footer-area .footer-links ul {
+        margin-top: 20px;
+    }
+
+
+}
+
+/* 33333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333 */
+/***************************************************** Main-Area *******************************************/
+
+
+@media screen and (max-width: 770px) {
+/* Header-Area start */
+
+    .nav-links ul li {
+        display: block;
+    }
+    .nav-links {
+        background-color: #244785;
+        height: 100vh;
+        width: 150px;
+        position: fixed;
+        top: 0;
+        right: -150px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+        box-shadow: 4px 0px 10px 4px;
+    }
+    nav .fa-bars {
+        position: absolute;
+        right: 5%;
+    }
+    .extra-btn1 {
+        display: inline-block;
+    }
+    .extra-btn2 {
+        display: none;
+    }
+    nav .fa {
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .nav-links ul {
+        padding: 30px;
+    }
+    .down-header {
+        width: 83%;
+    }
+    .down-header .row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .down-header .row .col-md-2 {
+        flex-basis: 100%;
+    }
+    .down-header nav ul {
+        width: 80%;
+    }
+
+
+/* Header-Area End */
+/* feature-Area Start */
+
+    .feature .row {
+        flex-direction: column;
+    }
+    .feature .featrue-col {
+        flex-basis: 100%;
+    }
+    .padd .featrue-col {
+        padding: 10px 15px;
+    }
+    .feature h1 {
+        font-size: 28.3px;
+        line-height: 35px;
+    }
+    .featrue-col h3 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .featrue-col p {
+        font-size: 15px;
+        line-height: 28px;
+    }
+    .featrue-col a img {
+        width: 20%;
+    }
+
+/* feature-Area End */
+/* .smart-jackpots-Area Start */
+
+    .smart-jackpots .row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .smart-jackpots .smart-col-2 {
+        flex-basis: 100%;
+    }
+    .smart-col-2 .platforms-img {
+        width: 100%;
+    }
+
+/* .smart-jackpots-Area End */
+/* ..meeting-6-Area Start */
+
+    .meeting-6 .img6 {
+        width: 25%;
+    }
+    .meeting-6 div {
+        margin-bottom: 25px;
+    }
+    .meeting-6 div h3 {
+        font-size: 18px;
+        margin-bottom: 21px;
+    }
+    .meeting-6 div p {
+        font-size: 15px;
+        line-height: 26px;
+    }
+
+/* .meeting-6-Area End */
+/* .smart-jacpots2-Area End */
+
+    .smart-jacpots2 .row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .smart-jacpots2 .jacpots2-col-2 {
+        flex-basis: 100%;
+    }
+    .smart-jacpots2 h2 {
+        font-size: 37.5px;
+        line-height: 50px;
+    }
+    .smart-jacpots2 p {
+        font-size: 15.4px;
+        line-height: 30px;
+    }
+
+/* .lets-see-area start  */
+
+    .lets-see .row  {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0px;
+    }
+    .lets-see .lets-col-4 {
+        flex-basis: 100%;
+        margin-bottom: 6%;
+    }
+    .lets-see .lets-col-4 .none {
+        display: none;
+    }
+    .lets-see .lets-col-4 h3 {
+        font-size: 23px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+    .lets-see .lets-col-4 p {
+        font-size: 19px;
+        line-height: 30px; 
+    }
+
+/* testimomial-area-start */
+
+    .testimomial .row {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+    }
+    .testimomial .testimonial-col-3 {
+        flex-basis: 100%;
+        margin-bottom: 7%;
+        padding: 10px 20px;
+    }
+    .testimomial h4 {
+        font-size: 16px;
+    }
+    .testimomial p {
+        font-size: 17px;
+        line-height: 32px;
+    }
+    .testimomial .testimonial-col-3 div span h5 {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .testimomial .testimonial-col-3 div span p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    /* paymnt-area-start */
+
+    .payment .row .payment-col {
+        flex-basis: 100%;
+    }
+    .payment h2 {
+        font-size: 35px;
+        line-height: 43px;
+    }
+    .payment p {
+        font-size: 14.5px;
+        line-height: 30px;
+    }
+
+    /* .premiume-area-start */
+
+    .premiume .row {
+        flex-direction: column;
+    }
+    .premiume .premiume-rowSide {
+        width: 75%;
+    }
+    .premiume .premiume-col {
+        flex-basis: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .premiume .free-plan p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .premi-head .staring h4 {
+        font-size: 26px;
+    }
+    .premi-head .staring p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .premiume .premiume-col span p {
+        font-size: 14.4px;
+    }
+
+/* questions-area start */
+
+    .question {
+        width: 85%;
+    }
+
+/* footer-area-start */
+
+    .footer-area {
+        width: 100%;
+        padding: 60px 0px;
+    }
+    .footer-area .row {
+        padding-left: 0px;
+    }
+    .footer-area .footer-links {
+        flex-basis: 42%;
+    }
+
+
+}
+
+
+
+/* 4444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444 */
+
+
+@media screen and (max-width: 429px) {
+    
+    .down-header h1 {
+        font-size: 38px;
+        line-height: 50px;
+    }
+    .down-header p {
+        font-size: 9px;
+        line-height: 16px;
+    }
+    .watch-btn {
+        font-size: 15px;
+        padding: 5px 10px;
+    }
+    .down-header .watch span {
+        font-size: 14px;
+    }
+    .feature h4 {
+        font-size: 13px;
+        line-height: 35px;
+
+    }
+    .feature h1 {
+        font-size: 22px;
+        line-height: 25px;
+      }
+    .smart-col-2 h2 {
+        font-size: 29px;
+    }
+    .smart-col-2 div p {
+        font-size: 9.5px;
+        line-height: 18px;
+    }
+    .easy-margin div img {
+        margin-right: 5px;
+        margin-top: -30px;
+    }
+
+    .meeting-6 div h3 {
+        font-size: 17.5px;
+    }
+    .meeting-6 div p {
+        font-size: 11.8px;
+        line-height: 22px;
+    }
+
+    .smart-jacpots2 h2 {
+        font-size: 29px;
+        line-height: 40px;
+        margin-bottom: 30px;
+    }
+    .smart-jacpots2 p {
+        font-size: 11.3px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+    .lets-see h4 {
+        font-size: 13px;
+        line-height: 20px;
+        letter-spacing: 1.5px;
+    }
+    .lets-see h1 {
+        font-size: 28px;
+    }
+    .lets-see .lets-col-4 h3 {
+        font-size: 21px;
+        margin-bottom: 10px;
+    }
+    .lets-see .lets-col-4 p {
+        font-size: 16px;
+        line-height: 26px; 
+    }
+
+    .testimomial h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .testimomial h4 {
+        font-size: 15px;
+    }
+    .testimomial p {
+        font-size: 13px;
+        line-height: 26px;
+    }
+    .testimomial .testimonial-col-3 {
+        margin-bottom: 10%;
+    }
+
+    .payment h2 {
+        line-height: 40px;
+    }
+    .payment p {
+        font-size: 11.8px;
+        line-height: 28px;
+    }
+    .payment-img img:hover {
+        transform: translateY(20px);
+    }
+
+    .premiume h3 {
+        font-size: 13px;
+        line-height: 20px;
+        letter-spacing: 1.5px;
+    }
+    .premiume h1 {
+        font-size: 28px;
+    }
+    .premiume .premiume-rowSide {
+        width: 90%;
+    }
+    .premiume .free-plan {
+        margin-bottom: 30px;
+    }
+    .premiume .premiume-col span {
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+    .premiume .premiume-col span p {
+        font-size: 13px;
+    }
+    .premi-head .staring h4 {
+        font-size: 20px;
+        margin-top: 5px;
+    }
+
+    .question h3 {
+        font-size: 13px;
+        line-height: 20px;
+        letter-spacing: 1.5px;
+    }
+    .question h1 {
+        font-size: 25.5px;
+    }
+    .area-subtitle {
+        margin-top: 50px;
+    }
+    .area-subtitle h5 {
+        font-size: 17px;
+    }
+    .area-subtitle p {
+        font-size: 10px;
+        line-height: 20px;
+        margin-bottom: 00px;
+    }
+
+    .footer-area .footer-links ul li a {
+        font-size: 11.5px;
+        line-height: 230%;
+    }
+
+}
+
+
